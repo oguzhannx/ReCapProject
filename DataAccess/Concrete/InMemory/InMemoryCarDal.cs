@@ -16,12 +16,12 @@ namespace DataAccess.Concrete.InMemory
         {
             _cars = new List<Car>
             {
-                new Car{Id = 1 ,BrandId = 1, ColorId = 1, DailyPrice = 500000, ModelYear = 2016, Description = "Mercedes 1"},
-                new Car{Id = 2 ,BrandId = 1, ColorId = 2, DailyPrice = 550000, ModelYear = 2016, Description = "Mercedes 2"},
-                new Car{Id = 3 ,BrandId = 2, ColorId = 1, DailyPrice = 600000, ModelYear = 2021, Description = "BMW 1"},
-                new Car{Id = 4 ,BrandId = 2, ColorId = 2, DailyPrice = 660000, ModelYear = 2021, Description = "BMW 2"},
-                new Car{Id = 5 ,BrandId = 3, ColorId = 3, DailyPrice = 800000, ModelYear = 2020, Description = "Dodge 1"},
-                new Car{Id = 6 ,BrandId = 3, ColorId = 1, DailyPrice = 800000, ModelYear = 2020, Description = "Dodge 2"},
+                new Car{Id = 1 ,BrandId = 1, ColorId = 1, DailyPrice = 500000, ModelYear = "2016", Description = "Mercedes 1"},
+                new Car{Id = 2 ,BrandId = 1, ColorId = 2, DailyPrice = 550000, ModelYear = "2016", Description = "Mercedes 2"},
+                new Car{Id = 3 ,BrandId = 2, ColorId = 1, DailyPrice = 600000, ModelYear = "2021", Description = "BMW 1"},
+                new Car{Id = 4 ,BrandId = 2, ColorId = 2, DailyPrice = 660000, ModelYear = "2021", Description = "BMW 2"},
+                new Car{Id = 5 ,BrandId = 3, ColorId = 3, DailyPrice = 800000, ModelYear = "2020", Description = "Dodge 1"},
+                new Car{Id = 6 ,BrandId = 3, ColorId = 1, DailyPrice = 800000, ModelYear = "2020", Description = "Dodge 2"},
 
             };
         }
